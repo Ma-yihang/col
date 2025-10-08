@@ -32,8 +32,8 @@ def sidebar_bg(side_bg):
     
 x = st.text_input("",type ='password')
 if x == "yfqh":
-    main_bg('bg3.png')
-    sidebar_bg('bg5.png')  
+    main_bg('bg3-2.png')
+    sidebar_bg('bg5-1.png')  
     page = st.sidebar.radio('运动会纪念站',['首页','100米短跑','实心球','200米短跑','400米中长跑','4×100米接力','尾声'])
     
     if page == "首页":
