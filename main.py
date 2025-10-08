@@ -56,6 +56,7 @@ if x == "yfqh":
     
     
     if page == "100米短跑":
+        st.audio('青春夏日-徐梦圆.mp3', loop=True, autoplay=True)
         st.title('100米短跑')
         st.subheader("男子")
         st.write('----')
@@ -119,6 +120,7 @@ if x == "yfqh":
         st.image('DSC_3304.JPG')
             
     if page == "实心球":
+        st.audio('青春夏日-徐梦圆.mp3', loop=True, autoplay=True)
         st.title("实心球")
         st.write('----')
         st.write('')
@@ -131,6 +133,7 @@ if x == "yfqh":
         st.video('DSC_3327.mp4')
     
     if page == '200米短跑':
+        st.audio('青春夏日-徐梦圆.mp3', loop=True, autoplay=True)
         st.title("200米短跑")
         st.subheader("男子")
         st.write('----')
@@ -179,6 +182,7 @@ if x == "yfqh":
         st.image('DSC_3421.JPG')
     
     if page == '400米中长跑':
+        st.audio('青春夏日-徐梦圆.mp3', loop=True, autoplay=True)
         st.title("400米中长跑")
         st.subheader("男子")
         st.write('----')
@@ -221,6 +225,7 @@ if x == "yfqh":
             st.image('DSC_3464.JPG')
     
     if page == '4×100米接力':
+        st.audio('青春夏日-徐梦圆.mp3', loop=True, autoplay=True) 
         st.title('4×100米接力')
         st.subheader("男子")
         st.write('----')
@@ -259,7 +264,10 @@ if x == "yfqh":
         st.image('DSC_3565.JPG')
     
     if page == '尾声':
+        st.audio('青春夏日-徐梦圆.mp3', loop=True, autoplay=True) 
         st.title("结语")
         st.write('')
         st.write('')
-        st.write('''''')
+        st.write('''运动会圆满落幕了。虽然咱们班没有站上领奖台，但同学们
+        在赛场上拼尽全力的模样、为同学呐喊助威的热情，比任何名次都更动人。
+                     ''')
