@@ -1,10 +1,7 @@
 import streamlit as st
 import base64
 import time
-
-x = st.text_input("",type ='password')
-if x == "yfqh":
-    def main_bg(main_bg):
+def main_bg(main_bg):
         main_bg_ext = "png"
         st.markdown(
             f'''
@@ -17,11 +14,8 @@ if x == "yfqh":
              ''',
             unsafe_allow_html=True
         )
-     
-    #调用
-    main_bg('bg3.png')
-    
-    def sidebar_bg(side_bg):
+
+def sidebar_bg(side_bg):
      
        side_bg_ext = 'png'
      
@@ -35,16 +29,11 @@ if x == "yfqh":
           ''',
           unsafe_allow_html=True,
           )
-     
-    #调用
-    sidebar_bg('bg5.png')
     
-    #roading = st.progress(0, '开始加载')
-    #for i in range(1, 101, 1):
-    #    time.sleep(0.02)
-    #   roading.progress(i, '正在加载'+str(i)+'%')
-    #roading.progress(100, '加载完毕！')
-    
+x = st.text_input("",type ='password')
+if x == "yfqh":
+    main_bg('bg3.png')
+    sidebar_bg('bg5.png')  
     page = st.sidebar.radio('运动会纪念站',['首页','100米短跑','实心球','200米短跑','400米中长跑','4×100米接力','尾声'])
     
     if page == "首页":
@@ -104,21 +93,7 @@ if x == "yfqh":
             st.write('')
             st.image('DSC_3568.JPG')
             st.write('----')
-            #def show_time(t):
-            #    st.markdown(str(t))
-    
-            #st.title('留言栏')
-            #recv = st.chat_input('输入你要的内容', on_submit=show_time, args=(time.time(), ))
-            #with open('留言.txt', 'r') as file:
-            #    content = file.read()
-            #    st.write(content)
-            #st.divider()
-            #if recv:
-            #    st.markdown(recv)
-    
-            #with open("留言.txt", "a") as file:
-            #    reca = str(recv) + '//'
-            #    file.write(reca)
+            
         st.write('')
         st.write('')
         st.image('DSC_3255_01.JPG')
