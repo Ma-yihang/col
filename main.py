@@ -49,7 +49,7 @@ if x == "@MYH201215#zghtr2025424":
     page = st.sidebar.radio('运动会纪念站',['首页','100米短跑','实心球','200米短跑','400米中长跑','4×100米接力','尾声'])
     
     if page == "首页":
-        #st.audio('青春夏日-徐梦圆.mp3', loop=True, autoplay=True)
+        st.audio('青春夏日-徐梦圆.mp3', loop=True, autoplay=True)
         st.title("运动会纪念")
         st.write('')
         st.write('')
