@@ -3,7 +3,7 @@ import base64
 import time
 
 x = st.text_input("",type ='password')
-if x == "@MYH201215#zghtr2025424":
+if x == "yfqh":
     def main_bg(main_bg):
         main_bg_ext = "png"
         st.markdown(
