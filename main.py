@@ -1,9 +1,8 @@
 import streamlit as st
 import base64
 import time
-st.title("验证身份")
-st.subheader("请输入密码:")
-x = st.text_input("")
+
+x = st.text_input("",type ='password')
 if x == "@MYH201215#zghtr2025424":
     def main_bg(main_bg):
         main_bg_ext = "png"
